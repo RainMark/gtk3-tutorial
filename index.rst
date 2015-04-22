@@ -12,6 +12,8 @@ Contents:
    :titlesonly:
 
    introduction
+   window
+   label
 
 
 Indices and tables
