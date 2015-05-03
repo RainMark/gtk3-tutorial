@@ -14,6 +14,7 @@ Contents:
    introduction
    window
    label
+   comboboxtext
 
 
 Indices and tables
