@@ -7,11 +7,11 @@ Constructor
 ===========
 A ComboBoxText is constructed with the call::
 
-  gtk_combo_box_text_new();
+  GtkWidget *combobox = gtk_combo_box_text_new();
 
 It can also be constructed with a text entry providing a way for the user to enter items now already in the menu::
 
-  gtk_combo_box_text_new_with_entry();
+  GtkWidget *combobox = gtk_combo_box_text_new_with_entry();
 
 =======
 Methods

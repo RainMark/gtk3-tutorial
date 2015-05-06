@@ -18,6 +18,8 @@ int main(int argc, char *argv[])
     g_signal_connect(window, "destroy", G_CALLBACK(destroy), NULL);
     
     GtkWidget *entry = gtk_entry_new();
+    gtk_entry_set_text(GTK_ENTRY(entry), "A Text Entry Widget");
+    gtk_entry_set_placeholder_text(GTK_ENTRY(entry), "Placeholder Text");
     g_signal_connect(GTK_ENTRY(entry), "activate", G_CALLBACK(entry_activated), NULL);
     gtk_container_add(GTK_CONTAINER(window), entry);
     
