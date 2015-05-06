@@ -13,8 +13,10 @@ Contents:
 
    introduction
    window
+   grid
    label
    button
+   switch
    comboboxtext
 
 
