@@ -17,6 +17,7 @@ Contents:
    label
    button
    switch
+   calendar
    comboboxtext
 
 
