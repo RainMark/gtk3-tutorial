@@ -21,6 +21,7 @@ Contents:
    calendar
    scale
    comboboxtext
+   liststore
 
 
 Indices and tables
