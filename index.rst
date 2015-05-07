@@ -17,6 +17,7 @@ Contents:
    grid
    label
    button
+   togglebutton
    checkbutton
    spinbutton
    switch
