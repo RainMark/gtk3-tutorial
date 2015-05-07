@@ -12,10 +12,13 @@ Contents:
    :titlesonly:
 
    introduction
+   helloworld
    window
    grid
    label
    button
+   checkbutton
+   spinbutton
    switch
    entry
    calendar
