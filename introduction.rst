@@ -13,7 +13,7 @@ About this tutorial
 ===================
 This guide does not walk through creating an application. It merely provides informational on each widget in GTK+, and describes their use.
 
-It also assumes that you are using up-to-date versions of GCC and GTK+.
+It also assumes that you are using up-to-date versions of GCC or Clang, and GTK+. The GTK+ version is recommended to be as new as possible, with the tutorial being written using 3.16.
 
 ===========
 Deprecation
