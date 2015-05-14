@@ -22,6 +22,7 @@ Contents:
    spinbutton
    switch
    entry
+   buttonbox
    calendar
    scale
    comboboxtext
