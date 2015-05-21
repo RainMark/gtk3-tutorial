@@ -22,10 +22,13 @@ Contents:
    spinbutton
    switch
    entry
+   entrycompletion
    buttonbox
    calendar
    scale
+   toolpalette
    comboboxtext
+   messagedialog
    liststore
 
 
