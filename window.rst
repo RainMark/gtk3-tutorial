@@ -20,12 +20,16 @@ The title of the Window can be set using the following method::
 
 By default, the Window is not shown by GTK+. This needs to be called explicitly with::
 
+  gtk_widget_show(window);
+
+Using the ``show()`` call will only display the window, with other widgets subsequently needing their own ``show()`` calls to be displayed. An alternative is to use::
+
   gtk_widget_show_all(window);
 
 .. note::
 
   It is recommended to use the ``gtk_widget_show_all(window)`` method once all the widgets have been added to the interface. This ensures that on very slow machines, the window displays all widgets at once rather than a blank window, and all other widgets added as they are processed.
-  
+
 Window widgets can also be hidden again with::
 
   gtk_widget_hide(window);
