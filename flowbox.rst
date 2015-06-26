@@ -53,3 +53,12 @@ The *selection* parameter should be set to one of the following constants::
 * ``GTK_SELECTION_SINGLE`` - allow a single selection.
 * ``GTK_SELECTION_MULTIPLE`` - allow multiple selections.
 * ``GTK_SELECTION_BROWSE`` - allow a single selection, and only allow the currently selected item to be deselected when another item is selected.
+
+=======
+Example
+=======
+Below is an example of a FlowBox:
+
+.. literalinclude:: _examples/flowbox.c
+
+Download: :download:`FlowBox <_examples/flowbox.c>`
