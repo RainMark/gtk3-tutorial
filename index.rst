@@ -20,6 +20,7 @@ Contents:
    togglebutton
    checkbutton
    spinbutton
+   linkbutton
    switch
    entry
    entrycompletion
@@ -27,10 +28,14 @@ Contents:
    calendar
    scale
    toolpalette
+   flowbox
+   listbox
    comboboxtext
    messagedialog
    liststore
-
+   filechooserbutton
+   colorbutton
+   fontbutton
 
 Indices and tables
 ==================
