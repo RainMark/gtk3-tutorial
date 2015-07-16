@@ -24,18 +24,27 @@ Contents:
    switch
    entry
    entrycompletion
+   entrybuffer
    buttonbox
+   separator
+   spinner
    calendar
    scale
    toolpalette
+   frame
    flowbox
    listbox
+   stack
+   stackswitcher
+   stacksidebar
+   combobox
    comboboxtext
    messagedialog
    liststore
    filechooserbutton
    colorbutton
    fontbutton
+   dialog
 
 Indices and tables
 ==================
