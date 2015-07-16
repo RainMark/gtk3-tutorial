@@ -30,6 +30,7 @@ Contents:
    spinner
    calendar
    scale
+   toolbar
    toolpalette
    frame
    flowbox
