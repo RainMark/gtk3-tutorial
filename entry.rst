@@ -2,6 +2,17 @@ Entry
 =====
 The Entry widget provides a way to input and display short amounts of text. It is commonly used for text input such as usernames, addresses, websites, etc.
 
+===========
+Constructor
+===========
+The Entry widget can be constructed with::
+
+  GtkWidget *entry = gtk_entry_new();
+
+An Entry can also be constructed with an associated :doc:`entrybuffer` object::
+
+  GtkWidget *entry = gtk_entry_new_with_buffer(entrybuffer);
+
 =======
 Methods
 =======
@@ -57,3 +68,12 @@ The *icon_name* parameter is based on the list of icons supported by GTK+. Alter
 
 * ``GTK_ENTRY_ICON_PRIMARY``
 * ``GTK_ENTRY_ICON_SECONDARY``
+
+=======
+Example
+=======
+Below is an example of a Entry:
+
+.. literalinclude:: _examples/entry.c
+
+Download: :download:`Entry <_examples/entry.c>`
