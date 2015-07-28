@@ -46,6 +46,7 @@ Contents:
    colorbutton
    fontbutton
    dialog
+   aboutdialog
 
 Indices and tables
 ==================
