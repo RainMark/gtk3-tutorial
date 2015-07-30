@@ -1,8 +1,3 @@
-.. GTK+ 3 Tutorial documentation master file, created by
-   sphinx-quickstart on Fri Nov  2 09:42:02 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to the GTK+ 3 Tutorial
 ==============================
 
@@ -47,6 +42,7 @@ Contents:
    fontbutton
    dialog
    aboutdialog
+   assistant
 
 Indices and tables
 ==================
