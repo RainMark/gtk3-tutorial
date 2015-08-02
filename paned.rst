@@ -7,7 +7,12 @@ Constructor
 ===========
 The constructor for the Paned widget is::
 
-  GtkWidget *paned = gtk_paned_new();
+  GtkWidget *paned = gtk_paned_new(orientation);
+
+The *orientation* parameter determines whether the Paned container lays added widgets horizontally or vertically and can be set to either:
+
+* ``GTK_ORIENTATION_HORIZONTAL``
+* ``GTK_ORIENTATION_VERTICAL``
 
 =======
 Methods
@@ -44,3 +49,12 @@ To retrieve the current position of the handle call::
 In some cases, it may be beneficial to have a wide handle which allows the user to grab the separator more easily. This is set by::
 
   gtk_paned_set_wide_handle(GTK_PANED(paned), wide);
+
+=======
+Example
+=======
+Below is an example of a Paned:
+
+.. literalinclude:: _examples/paned.c
+
+Download: :download:`Paned <_examples/paned.c>`
