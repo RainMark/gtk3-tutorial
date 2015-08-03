@@ -35,13 +35,14 @@ Contents:
    stacksidebar
    combobox
    comboboxtext
-   messagedialog
    liststore
    filechooserbutton
    colorbutton
    fontbutton
+   infobar
    dialog
    aboutdialog
+   messagedialog
    assistant
 
 Indices and tables
