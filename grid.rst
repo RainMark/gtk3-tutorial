@@ -43,7 +43,7 @@ In some cases, it may be useful to ensure that each widget is allocated the same
   gtk_grid_set_row_homogeneous(GTK_GRID(grid), homogeneous);
   gtk_grid_set_column_homogeneous(GTK_GRID(grid), homogeneous);
 
-When *homogeneous* is set to ``True``, the Grid will force each widget to be the same size, with the largest widget dictating the overall size.
+When *homogeneous* is set to ``TRUE``, the Grid will force each widget to be the same size, with the largest widget dictating the overall size.
 
 The number of rows and columns in the Grid can be increased or decreased by::
 

@@ -60,7 +60,7 @@ Typically, when a Button is clicked, the Button gains the input focus. In some c
 
   gtk_button_set_focus_on_click(GTK_BUTTON(button), focus_on_click)
 
-When *focus_on_click* is set to ``False``, the input will remain with the main content rather than on the Button.
+When *focus_on_click* is set to ``FALSE``, the input will remain with the main content rather than on the Button.
 
 =======
 Example

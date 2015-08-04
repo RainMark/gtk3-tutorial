@@ -38,7 +38,7 @@ Individual items can be removed from the ListStore via::
 
   gtk_liststore_remove(liststore, treeiter);
 
-The *treeiter* parameter points to the TreeIter object of the row to be removed. If the TreeIter is valid and the row is remove, the method returns ``True``, otherwise ``FALSE`` is removed.
+The *treeiter* parameter points to the TreeIter object of the row to be removed. If the TreeIter is valid and the row is remove, the method returns ``TRUE``, otherwise ``FALSE`` is removed.
 
 All the items can be cleared from the ListStore using::
 
