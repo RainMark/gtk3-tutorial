@@ -9,6 +9,7 @@ Contents:
    introduction
    helloworld
    window
+   box
    grid
    label
    button
@@ -36,6 +37,7 @@ Contents:
    combobox
    comboboxtext
    liststore
+   treestore
    filechooserbutton
    colorbutton
    fontbutton
