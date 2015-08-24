@@ -26,9 +26,13 @@ Contents:
    spinner
    calendar
    scale
+   scalebutton
+   progressbar
    toolbar
    toolpalette
+   statusbar
    frame
+   paned
    flowbox
    listbox
    stack
