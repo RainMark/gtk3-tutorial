@@ -35,6 +35,8 @@ Contents:
    paned
    flowbox
    listbox
+   actionbar
+   headerbar
    stack
    stackswitcher
    stacksidebar
