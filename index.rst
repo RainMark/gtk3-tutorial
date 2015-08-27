@@ -27,7 +27,6 @@ Contents:
    calendar
    scale
    scalebutton
-   progressbar
    toolbar
    toolpalette
    statusbar
@@ -38,6 +37,8 @@ Contents:
    listbox
    actionbar
    headerbar
+   levelbar
+   progressbar
    stack
    stackswitcher
    stacksidebar
