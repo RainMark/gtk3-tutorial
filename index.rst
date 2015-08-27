@@ -32,6 +32,7 @@ Contents:
    toolpalette
    statusbar
    frame
+   aspectframe
    paned
    flowbox
    listbox
