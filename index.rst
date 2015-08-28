@@ -32,6 +32,8 @@ Contents:
    statusbar
    frame
    aspectframe
+   expander
+   revealer
    paned
    flowbox
    listbox
