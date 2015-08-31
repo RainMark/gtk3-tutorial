@@ -29,3 +29,12 @@ Previews can also be displayed on the FontButton for the selected font using::
 The FontButton title to be displayed on the dialog can be set with::
 
   gtk_font_button_set_title(GTK_FONT_BUTTON(fontbutton), title);
+
+=======
+Example
+=======
+Below is an example of a FontButton:
+
+.. literalinclude:: _examples/fontbutton.c
+
+Download: :download:`FontButton <_examples/fontbutton.c>`

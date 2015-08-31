@@ -51,3 +51,12 @@ The *flags* argument can be set to any of the following values:
 * ``GTK_CALENDAR_SHOW_DETAILS``
 
 The ``GTK_CALENDAR_SHOW_HEADING`` flag enables the heading which displays the month and year. ``GTK_CALENDAR_SHOW_DAY_NAMES`` sets the three letter day to be displayed. Preventing month and year changes from being made by adding the flag ``GTK_CALENDAR_NO_MONTH_CHANGE``. In some cases, it is useful to display the week numbers via ``GTK_CALENDAR_SHOW_WEEK_NUMBERS``. Each flag should be separated from another by a pipe '|' character.
+
+=======
+Example
+=======
+Below is an example of a Calendar:
+
+.. literalinclude:: _examples/calendar.c
+
+Download: :download:`Calendar <_examples/calendar.c>`

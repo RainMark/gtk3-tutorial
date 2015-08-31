@@ -58,7 +58,7 @@ The content and action areas of the InfoBar can be retrieved using::
 =======
 Example
 =======
-Below is an example of a InfoBar:
+Below is an example of an InfoBar:
 
 .. literalinclude:: _examples/infobar.c
 

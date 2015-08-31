@@ -21,3 +21,12 @@ Customisation of the FileChooserButton width can be made via::
   gtk_file_chooser_button_set_width_chars(GTK_FILE_CHOOSER_BUTTON(filechooserbutton), width);
 
 The *width* should be a value set in pixels.
+
+=======
+Example
+=======
+Below is an example of a FileChooserButton:
+
+.. literalinclude:: _examples/filechooserbutton.c
+
+Download: :download:`FileChooserButton <_examples/filechooserbutton.c>`

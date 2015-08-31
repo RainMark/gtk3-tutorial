@@ -39,3 +39,12 @@ The ability to cycle through completions within the Entry is set with::
 A completion can be programatically forced using the entered text as the key via::
 
   gtk_entry_completion_complete(GTK_ENTRY_COMPLETION(entrycompletion));
+
+=======
+Example
+=======
+Below is an example of an EntryCompletion:
+
+.. literalinclude:: _examples/entrycompletion.c
+
+Download: :download:`EntryCompletion <_examples/entrycompletion.c>`

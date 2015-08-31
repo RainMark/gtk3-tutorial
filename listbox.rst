@@ -52,7 +52,16 @@ The *mode* should be set to one of the following:
 * ``GTK_SELECTION_BROWSE``
 * ``GTK_SELECTION_MULTIPLE``
 
-The selected rows, depending on the selection mode selected, can be obtained via::
+The selected rows, depending on the selection mode in use, can be obtained via::
 
   gtk_list_box_get_selected_row(GTK_LIST_BOX(listbox));
   gtk_list_box_get_selected_rows(GTK_LIST_BOX(listbox));
+
+=======
+Example
+=======
+Below is an example of a ListBox:
+
+.. literalinclude:: _examples/listbox.c
+
+Download: :download:`ListBox <_examples/listbox.c>`

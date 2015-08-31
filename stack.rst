@@ -72,3 +72,12 @@ Transition animation times can also be set by calling::
   gtk_stack_set_transition_duration(GTK_STACK(stack), duration);
 
 The *duration* parameter should be specified in milliseconds.
+
+=======
+Example
+=======
+Below is an example of a Stack:
+
+.. literalinclude:: _examples/stack.c
+
+Download: :download:`Stack <_examples/stack.c>`

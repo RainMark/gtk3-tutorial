@@ -31,3 +31,12 @@ The link which the LinkButton links to can be set via::
 Checking whether the LinkButton address has been visited is retrievable using::
 
   gtk_link_button_get_visited(GTK_LINK_BUTTON(linkbutton));
+
+=======
+Example
+=======
+Below is an example of a LinkButton:
+
+.. literalinclude:: _examples/linkbutton.c
+
+Download: :download:`LinkButton <_examples/linkbutton.c>`

@@ -75,3 +75,12 @@ Additional methods are also available to control the Assistant::
   gtk_assistant_commit(GTK_ASSISTANT(assistant));
 
 The ``previous_page()`` and ``next_page()`` methods allow the Assistant to programmatically move backwards or forwards. The ``commit()`` method allows changes made up to the current page to be made permanent. This has the effect of clearing page visited history, and removing the Cancel button from subsequent pages.
+
+=======
+Example
+=======
+Below is an example of an Assistant:
+
+.. literalinclude:: _examples/assistant.c
+
+Download: :download:`Assistant <_examples/assistant.c>`

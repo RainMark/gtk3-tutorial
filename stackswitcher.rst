@@ -19,3 +19,12 @@ The StackSwitcher can be attached to the Stack via::
 Retrival of the associated Stack object can be made using::
 
   stackswitcher.get_stack()
+
+=======
+Example
+=======
+Below is an example of a StackSwitcher:
+
+.. literalinclude:: _examples/stackswitcher.c
+
+Download: :download:`StackSwitcher <_examples/stackswitcher.c>`

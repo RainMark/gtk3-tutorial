@@ -45,7 +45,7 @@ The *position* value sets where the text should be deleted from with the *length
 =======
 Example
 =======
-Below is an example of a EntryBuffer:
+Below is an example of an EntryBuffer:
 
 .. literalinclude:: _examples/entrybuffer.c
 

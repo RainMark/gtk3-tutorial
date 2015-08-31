@@ -24,7 +24,7 @@ To place items centrally within the ActionBar call::
 =======
 Example
 =======
-Below is an example of a ActionBar:
+Below is an example of an ActionBar:
 
 .. literalinclude:: _examples/actionbar.c
 

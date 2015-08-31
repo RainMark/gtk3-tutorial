@@ -21,7 +21,7 @@ The AspectFrame values can be set after construction using::
 =======
 Example
 =======
-Below is an example of a AspectFrame:
+Below is an example of an AspectFrame:
 
 .. literalinclude:: _examples/aspectframe.c
 

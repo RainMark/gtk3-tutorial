@@ -70,3 +70,12 @@ When ``GTK_POS_TOP`` or ``GTK_POS_BOTTOM`` is used, a row is inserted and when `
 The child located in a particular row and column can be retrieved with::
 
   gtk_grid_get_child_at(GTK_GRID(grid), left, top);
+
+=======
+Example
+=======
+Below is an example of a Grid:
+
+.. literalinclude:: _examples/grid.c
+
+Download: :download:`Grid <_examples/grid.c>`

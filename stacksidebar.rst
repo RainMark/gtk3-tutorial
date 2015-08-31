@@ -19,3 +19,12 @@ To associate the Stack with the StackSidebar call::
 Retrieval of the Stack associated can be made via::
 
   stacksidebar.get_stack()
+
+=======
+Example
+=======
+Below is an example of a StackSidebar:
+
+.. literalinclude:: _examples/stacksidebar.c
+
+Download: :download:`StackSidebar <_examples/stacksidebar.c>`

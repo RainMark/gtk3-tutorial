@@ -59,3 +59,12 @@ The logo for the program can also be displayed on the AboutDialog with::
   gtk_about_dialog_set_logo(GTK_ABOUT_DIALOG(aboutdialog), logo);
 
 The *logo* parameter passed should be a GdkPixbuf object.
+
+=======
+Example
+=======
+Below is an example of an AboutDialog:
+
+.. literalinclude:: _examples/aboutdialog.c
+
+Download: :download:`AboutDialog <_examples/aboutdialog.c>`

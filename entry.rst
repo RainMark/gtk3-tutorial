@@ -72,7 +72,7 @@ The *icon_name* parameter is based on the list of icons supported by GTK+. Alter
 =======
 Example
 =======
-Below is an example of a Entry:
+Below is an example of an Entry:
 
 .. literalinclude:: _examples/entry.c
 

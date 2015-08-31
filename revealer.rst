@@ -40,3 +40,12 @@ The *transition* value should be set to one of the following:
 * ``GTK_REVEALER_TRANSITION_TYPE_SLIDE_LEFT`` - slide in from right
 * ``GTK_REVEALER_TRANSITION_TYPE_SLIDE_UP`` - slide in from bottom
 * ``GTK_REVEALER_TRANSITION_TYPE_SLIDE_DOWN`` - slide in from top
+
+=======
+Example
+=======
+Below is an example of a Revealer:
+
+.. literalinclude:: _examples/revealer.c
+
+Download: :download:`Revealer <_examples/revealer.c>`

@@ -58,3 +58,12 @@ You can check whether the ComboBox has an Entry with::
 The ComboBox can be configured to accept focus or not when clicked via::
 
   gtk_combo_box_set_focus_on_click(GTK_COMBOBOX(combobox), focus);
+
+=======
+Example
+=======
+Below is an example of a ComboBox:
+
+.. literalinclude:: _examples/combobox.c
+
+Download: :download:`ComboBoxBox <_examples/combobox.c>`

@@ -62,3 +62,12 @@ The *treeiter* call in both methods takes the TreeIter of the item to be moved. 
 .. note::
 
   The ``move_before()`` and ``move_after()`` methods only work on ListStore objects which are unsorted.
+
+=======
+Example
+=======
+Below is an example of a ListStore:
+
+.. literalinclude:: _examples/liststore.c
+
+Download: :download:`ListStore <_examples/liststore.c>`

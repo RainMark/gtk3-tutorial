@@ -72,3 +72,12 @@ Running the dialog is done with the method::
 The Dialog can also be destroyed programmatically via::
 
   gtk_widget_destroy(dialog);
+
+=======
+Example
+=======
+Below is an example of a Dialog:
+
+.. literalinclude:: _examples/dialog.c
+
+Download: :download:`Dialog <_examples/dialog.c>`

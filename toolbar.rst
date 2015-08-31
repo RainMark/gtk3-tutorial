@@ -50,3 +50,12 @@ The *size* parameter should be one of the following::
 * ``GTK_ICON_SIZE_BUTTON`` - 16 pixels.
 * ``GTK_ICON_SIZE_DND`` - 32 pixels.
 * ``GTK_ICON_SIZE_DIALOG`` - 48 pixels.
+
+=======
+Example
+=======
+Below is an example of a Toolbar:
+
+.. literalinclude:: _examples/toolbar.c
+
+Download: :download:`Toolbar <_examples/toolbar.c>`
