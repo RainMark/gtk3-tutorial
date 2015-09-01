@@ -17,6 +17,7 @@ Contents:
    checkbutton
    spinbutton
    linkbutton
+   menubutton
    switch
    entry
    entrycompletion
