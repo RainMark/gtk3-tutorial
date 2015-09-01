@@ -21,6 +21,7 @@ Contents:
    entry
    entrycompletion
    entrybuffer
+   searchentry
    buttonbox
    separator
    spinner
@@ -52,6 +53,7 @@ Contents:
    colorbutton
    fontbutton
    infobar
+   textview
    dialog
    aboutdialog
    messagedialog
