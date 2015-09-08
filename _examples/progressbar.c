@@ -3,6 +3,7 @@
 typedef struct _ProgressData {
     GtkWidget *progressbar;
     int timer;
+    gboolean show_text;
     gboolean activity_mode;
 } ProgressData;
 
@@ -28,10 +29,17 @@ static gboolean progress_timeout(gpointer data)
 
 static void toggle_show_text(GtkWidget *widget, ProgressData *progressdata)
 {
-    if (gtk_progress_bar_get_text(GTK_PROGRESS_BAR (progressdata->progressbar)))
-        gtk_progress_bar_set_text(GTK_PROGRESS_BAR (progressdata->progressbar), "");
+    if (progressdata->show_text)
+    {
+        progressdata->show_text = FALSE;
+        gtk_progress_bar_set_show_text(GTK_PROGRESS_BAR(progressdata->progressbar), FALSE);
+        gtk_progress_bar_set_text(GTK_PROGRESS_BAR(progressdata->progressbar), "");
+    }
     else
-        gtk_progress_bar_set_text(GTK_PROGRESS_BAR (progressdata->progressbar), "Text");
+    {
+        progressdata->show_text = TRUE;
+        gtk_progress_bar_set_show_text(GTK_PROGRESS_BAR(progressdata->progressbar), TRUE);
+    }
 }
 
 static void toggle_activity_mode(GtkWidget *widget, ProgressData *progressdata)
@@ -62,10 +70,11 @@ int main(int argc, char *argv[])
     progressdata = g_malloc(sizeof(ProgressData));
 
     GtkWidget *window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
+    gtk_window_set_title(GTK_WINDOW(window), "ProgressBar");
     g_signal_connect(window, "destroy", G_CALLBACK (destroy_progress), (gpointer) progressdata);
     gtk_container_set_border_width (GTK_CONTAINER (window), 0);
 
-    GtkWidget *vbox = gtk_vbox_new(FALSE, 5);
+    GtkWidget *vbox = gtk_box_new(GTK_ORIENTATION_VERTICAL, 5);
     gtk_container_add(GTK_CONTAINER(window), vbox);
 
     progressdata->activity_mode = FALSE;
